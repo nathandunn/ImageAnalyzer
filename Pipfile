@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-resnet = "*"
+update = "*"
+keras-resnet = "*"
+tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0-py3-none-any.whl"}
 keras = "*"
 
 [dev-packages]
