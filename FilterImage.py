@@ -7,13 +7,12 @@ import keras
 import keras.applications
 # import keras_resnet.models
 # import keras_resnet.layers
-shape, classes = (32, 32, 3), 10
+# shape, classes = (32, 32, 3), 10
+# x = keras.layers.Input(shape)
 
+# https://github.com/tensorflow/tensorflow/issues/20690
 
-x = keras.layers.Input(shape)
-
-
-model1 = keras.applications.resnet50.ResNet50(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
+# model1 = keras.applications.resnet50.ResNet50(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
 
 
 # keras.layers.Conv2D(filters, kernel_size, strides=(1, 1), padding='valid', data_format=None, dilation_rate=(1, 1), activation=None, use_bias=True, kernel_initializer='glorot_uniform', bias_initializer='zeros', kernel_regularizer=None, bias_regularizer=None, activity_regularizer=None, kernel_constraint=None, bias_constraint=None)

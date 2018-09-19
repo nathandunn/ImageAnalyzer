@@ -5,9 +5,8 @@ name = "pypi"
 
 [packages]
 update = "*"
-keras-resnet = "*"
-tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.10.0-py3-none-any.whl"}
 keras = "*"
+tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.10.1-py3-none-any.whl"}
 
 [dev-packages]
 
